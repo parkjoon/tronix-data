@@ -21,16 +21,14 @@ export default class Home extends Component {
 				<Header />
 				<main data-hijacking="off" data-animation="fixed" className="page-content">
 					<Banner />
-					<BigData />
 					<section className="to-front bg-white">
-						<hr className="hr" />
+						<MiscFeatures />
+						<BigData />
 						<CortanaServices />
 						<hr className="hr" />
 						<DataCenterModernization />
 						<hr className="hr" />
 						<OperationsManagement />
-						<hr className="hr" />
-						<MiscFeatures />
 						<FooterBanner />
 						{/* <Clients /> */}
 					</section>

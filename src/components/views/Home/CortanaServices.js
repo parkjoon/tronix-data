@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 export default class CortanaServices extends Component {
 	render() {
 		return (
-			<section style={{paddingTop: '2em'}}>
+			<section style={{paddingTop: '4em'}}>
 				<div className="shell">
 					<div className="range range-xs-center offset-top-30">
-						<div className="cell-xs-12 cell-md-8">
+						<div className="cell-xs-12 cell-md-10">
 							<h3>Cortana Analytics</h3>
-							<p style={{color: 'black'}}>Microsoft Cortana Intelligence Suite is a fully managed big data and advanced analytics platform. It also integrates with advanced apps, bots and Internet of Things.<br /><br /> Microsoft's Cortana Intelligence Suite can transform your data into intelligent action. We can help you use the Cortana Intelligence Suite for Information management, Big Data stores, Machine Learning, and then present the results using dashboards and visualizations.<br /><br />As Cortana Intelligence Suite opens up your blind spots to a blur of business potential, it can be overwhelming to ensure you make the most of this. We work to adjust the lens from your vantage point, transforming a scope of possibility into clear frames.</p>
+							<p style={{color: 'black'}}>Microsoft Cortana Intelligence Suite is a fully managed big data and advanced analytics platform. It can transform your data into intelligent action and open up your blind spots to a blur of business potential. We can help you use the Cortana Intelligence Suite for Information management, Big Data stores, Machine Learning, and then present the results using dashboards and visualizations.</p>
 						</div>
 					</div>
 					<div className="range range-xs-center text-left offset-top-60 offset-md-top-90">

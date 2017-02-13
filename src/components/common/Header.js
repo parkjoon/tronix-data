@@ -17,7 +17,7 @@ export default class Header extends Component {
 									</ul>
 								</div>
 								<div className="rd-navbar-button">
-									<p className="text-darker rd-navbar-slogan veil">Get started now. We are available 24/7 .</p><a href="javascript:;" className="btn btn-primary btn-xs" data-toggle="modal" data-target="#contactModal">Get started</a>
+									<p className="rd-navbar-slogan veil">Get started now. We are available 24/7 .</p><a href="javascript:;" className="btn btn-primary btn-xs" data-toggle="modal" data-target="#contactModal">Get started</a>
 								</div>
 							</div>
 						</div>

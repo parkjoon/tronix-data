@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class OperationsManagement extends Component {
 	render() {
 		return (
-			<section style={{paddingTop: '1em'}}>
+			<section style={{paddingTop: '1em', paddingBottom: '8em'}}>
 				<div className="shell">
 					<div className="range range-xs-center offset-top-30">
 						<div className="cell-xs-10 cell-md-6">
@@ -20,7 +20,7 @@ export default class OperationsManagement extends Component {
 										<h5>Robust Features</h5>
 									</div>
 									<div className="offset-top-10">
-										<p className="small">Microsoft Operations Management Suite (OMS) offers you the leading platform for Operational Intelligence. You can use OMS to search, monitor, analyze and visualize operational data. OMS is the starting point to understand your business readiness for Cloud and provides you real time Operational performance in a single pane.</p>
+										<p className="small">Microsoft Operations Management Suite (OMS) offers you the leading platform for Operational Intelligence. You can use OMS to search, monitor, analyze and visualize operational data.</p>
 									</div>
 								</div>
 							</div>
@@ -46,7 +46,7 @@ export default class OperationsManagement extends Component {
 										<h5>Unrestrained Flexibility</h5>
 									</div>
 									<div className="offset-top-10">
-										<p className="small">We can help you deploy OMS to best advantage. Whether you need it as a stand-alone solution or to complement an existing System Center environment, we have the experience and the expertise to tailor it according to your needs.</p>
+										<p className="small">Whether you need it as a stand-alone solution or to complement an existing System Center environment, we have the experience and the expertise to tailor it according to your needs.</p>
 									</div>
 								</div>
 							</div>

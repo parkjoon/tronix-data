@@ -3,41 +3,44 @@ import React, { Component } from 'react';
 export default class BigData extends Component {
 	render() {
 		return (
-			<section className="section-animate to-front bg-white">
-				<div className="section-animate-wrapper section-md-110 section-65 section-md-0">
-					<div style={{height: '100%'}} className="shell section-relative reveal-md-flex range-md-middle">
-						<div data-items="1" data-stage-padding="0" data-dots="true" data-margin="10" data-dots-each="1" data-loop="false" data-output-counter="#current-counter1" className="owl-carousel owl-carousel-default">
-							<div className="item" style={{marginBottom: '2em'}}>
-								<div className="range range-xs-center range-xs-middle">
-									<div className="cell-sm-6 cell-lg-8 cell-sm-push-2 text-md-right">
-										<div className="img-carousel"><img src="/styles/images/tronix-data/big-data-growth.jpg" data-animation="fadeIn" className="img-responsive animateItem max-width-75p" /></div>
-									</div>
-									<div className="cell-sm-6 cell-lg-4 text-sm-left cell-sm-push-1">
-										<h3 data-animation="fadeInUp" className="animateItem">The Answer is in the Data</h3>
-										<div className="offset-top-20">
-											<p data-animation="fadeInUp" data-delay="0.1" data-duration="1" className="animateItem">With the right approach,  right tools and the right people you can rectify the past, assess the present and not just predict the future, but also posses the ability change it.</p>
-										</div>
+			// <section className="section-90 section-md-110 inset-left-15 inset-right-15">
+			// 	<div className="row">
+			// 		<div className="col-md-12">
+			// 			<div className="row">
+			// 				<div className="col-md-12">
+			// 					<h3>Big Data (THIS SECTION IS A WORK IN PROGRESS)</h3>
+			// 				</div>
+			// 			</div>
+			// 			<div className="row" style={{marginTop: '1em'}}>
+			// 				<div className="col-md-6" style={{marginLeft: '25%'}}>
+			// 					<p>
+			// 						By leveraging our knowledge of Data Warehousing and Business Intelligence and by drawing standard reports, we help businesses view their existing data in a more efficient way.
+			// 					</p>
+			// 				</div>
+			// 			</div>
+			// 			<div className="row" style={{marginTop: '1em'}}>
+			// 				<div className="col-md-6" style={{marginLeft: '25%'}}>
+			// 					<p>
+			// 						Our data mining capabilities have helped businesses unearth a plethora of previously unseen information. Our expertise in Big Data have enabled our clients efficiently handle unstructured and semi structured data efficiently, thereby lowering their operational costs. Finally, our proficiency in Predictive Analytics and Machine Learning have helped companies forecast their foreseeable future and modify their business decisions.
+			// 					</p>
+			// 				</div>
+			// 			</div>
+			// 		</div>
+			// 	</div>
+			// </section>
+			<section className="context-dark">
+				<div data-on="false" data-md-on="true" className="rd-parallax">
+					<div data-speed="0.35" data-type="media" data-url="/styles/images/tronix-data/banner-2.jpg" className="rd-parallax-layer"></div>
+					<div data-speed="0" data-type="html" className="rd-parallax-layer">
+						<div className="shell">
+							<div className="range">
+								<div className="range range-xs-center range-md-left range-xs-middle text-md-left" style={{minHeight: '500px'}}>
+									<div className="cell-xs-10 cell-md-8">
+										<h1 style={{pointerEvents: 'none', paddingTop: '1em'}}>Big Data (THIS SECTION IS A WORK IN PROGRESS)</h1>
+										<p style={{pointerEvents: 'none'}}>?</p>
 									</div>
 								</div>
 							</div>
-							<div className="item" style={{marginBottom: '2em'}}>
-								<div className="range range-xs-center range-xs-middle">
-									<div className="cell-sm-6 cell-lg-8 cell-sm-push-2 text-md-right">
-										<div className="img-carousel"><img src="/styles/images/tronix-data/big-data-value.jpg" className="img-responsive max-width-75p" /></div>
-									</div>
-									<div className="cell-sm-6 cell-lg-4 text-sm-left cell-sm-push-1">
-										<h3 className="test">Tried and Tested Expertise</h3>
-										<div className="offset-top-20">
-											<p>Tailoring - that is one of our bigger advantages. As the adage goes, Tailored beats one-size-fits-all. If you’ve got a data science opportunity for which off-the-shelf solutions probably don’t exist yet, we can tailor an approach to the specific needs, culture, and goals of the problem at hand.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div id="current-counter1" data-animation="fadeIn" className="carousel-counter-container animateItem">
-							<div className="current-counter"></div>
-							<div className="count"></div>
-							<div className="carousel-count"></div>
 						</div>
 					</div>
 				</div>
