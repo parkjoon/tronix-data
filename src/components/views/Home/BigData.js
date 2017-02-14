@@ -30,14 +30,14 @@ export default class BigData extends Component {
 			// </section>
 			<section className="context-dark">
 				<div data-on="false" data-md-on="true" className="rd-parallax">
-					<div data-speed="0.35" data-type="media" data-url="/styles/images/tronix-data/banner-2.jpg" className="rd-parallax-layer"></div>
+					<div data-speed="0.35" data-type="media" data-url="/styles/images/tronix-data/banner-6.jpg" className="rd-parallax-layer"></div>
 					<div data-speed="0" data-type="html" className="rd-parallax-layer">
 						<div className="shell">
 							<div className="range">
 								<div className="range range-xs-center range-md-left range-xs-middle text-md-left" style={{minHeight: '500px'}}>
 									<div className="cell-xs-10 cell-md-8">
 										<h1 style={{pointerEvents: 'none', paddingTop: '1em'}}>Big Data (THIS SECTION IS A WORK IN PROGRESS)</h1>
-										<p style={{pointerEvents: 'none'}}>?</p>
+										<p style={{pointerEvents: 'none'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 									</div>
 								</div>
 							</div>
