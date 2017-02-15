@@ -5,7 +5,7 @@ export default class Banner extends Component {
 		return (
 			<section className="context-dark">
 				<div data-on="false" data-md-on="true" className="rd-parallax">
-					<div data-speed="0.35" data-type="media" data-url="/styles/images/tronix-data/banner-4.jpg" className="rd-parallax-layer"></div>
+					<div data-speed="0.35" data-type="media" data-url="/styles/images/tronix-data/banner-8.jpg" className="rd-parallax-layer"></div>
 					<div data-speed="0" data-type="html" className="rd-parallax-layer">
 						<div className="shell">
 							<div className="range">
