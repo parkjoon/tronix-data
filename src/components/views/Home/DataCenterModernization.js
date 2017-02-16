@@ -11,7 +11,7 @@ export default class DataCenterModernization extends Component {
 							<p style={{color: 'black'}}>We can help you reduce your expenditures on what is typically the most costly component of your IT budget. We do it by rationalizing, consolidating, and pruning servers, applications, and data centers to eliminate waste, redundancy, and under-utilization.</p>
 						</div>
 					</div>
-					<div className="range range-xs-center text-left offset-top-60 offset-md-top-90">
+					<div className="range range-xs-center text-left offset-top-60 offset-md-top-90" style={{paddingBottom: '2em'}}>
 						<div className="cell-sm-6 cell-xs-10 cell-md-4">
 							<div className="unit unit-horizontal">
 								<div className="unit-left"><i className="fa fa-cloud fa-4x"></i></div>

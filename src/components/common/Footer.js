@@ -4,24 +4,42 @@ export default class Footer extends Component {
 	render() {
 		return (
 			<footer className="section-50 page-footer bg-gray-darkest context-dark to-front">
-				<div className="shell text-sm-left">
-					<div className="range range-xs-center">
-						<div className="cell-md-4 cell-sm-push-1 text-center text-md-left">
-							<div className="footer-brand reveal-inline-block"><a href="#"><img src="/styles/images/tronix-data/logo-1.png" width="197" height="32" alt="" style={{marginTop: '-7px'}} className="img-responsive reveal-inline-block" /></a></div>
-						</div>
-						<div className="cell-sm-5 cell-md-2 cell-sm-push-2 offset-sm-top-30 offset-md-top-0">
-							<div>
-								<h5>Follow Us</h5>
-							</div>
-							<div className="offset-top-7">
-								<hr className="hr" />
-							</div>
-							<ul className="list list-unstyled">
-								<li><a href="https://twitter.com/TronixData" target="_blank">Twitter</a></li>
-								<li><a href="https://www.linkedin.com/company/tronix-data" target="_blank">LinkedIn</a></li>
-							</ul>
-						</div>
+				<div className="row">
+					<div className="col-md-5">
+						<div className="footer-brand reveal-inline-block"><a href="#"><img src="/styles/images/tronix-data/logo-1.png" width="197" height="32" alt="" style={{marginTop: '-7px'}} className="img-responsive reveal-inline-block" /></a></div>
 					</div>
+					<div className="col-md-2">
+						<div>
+							<h5>Follow Us</h5>
+						</div>
+						<div className="offset-top-7">
+							<hr className="hr" />
+						</div>
+						<ul className="list list-unstyled">
+							<li><a href="https://twitter.com/TronixData" target="_blank">Twitter</a></li>
+							<li><a href="https://www.linkedin.com/company/tronix-data" target="_blank">LinkedIn</a></li>
+						</ul>
+					</div>
+					<address className="col-md-5">
+						<div>
+							<dl>
+								<dt className="text-white">Address:</dt>
+								<dd className="text-dark reveal-lg-block">28 Jackson Blvd St<span className="reveal-lg-block">Chicago IL 60604</span></dd>
+							</dl>
+						</div>
+						<div>
+							<dl className="offset-top-0">
+								<dt className="text-white">Phone:</dt>
+								<dd className="text-dark">+1 800 559 6580</dd>
+							</dl>
+						</div>
+						<div>
+							<dl className="offset-top-0">
+								<dt className="text-white">Email:</dt>
+								<dd className="text-dark">info@tronixdata.com</dd>
+							</dl>
+						</div>
+					</address>
 				</div>
 			</footer>
 		);
