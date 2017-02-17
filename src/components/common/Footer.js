@@ -24,13 +24,13 @@ export default class Footer extends Component {
 						<div>
 							<dl>
 								<dt className="text-white">Address:</dt>
-								<dd className="text-dark reveal-lg-block">28 Jackson Blvd St<span className="reveal-lg-block">Chicago IL 60604</span></dd>
+								<dd className="text-dark reveal-lg-block">830 Lawrence Avenue West<span className="reveal-lg-block">Toronto, Canada</span></dd>
 							</dl>
 						</div>
 						<div>
 							<dl className="offset-top-0">
 								<dt className="text-white">Phone:</dt>
-								<dd className="text-dark">+1 800 559 6580</dd>
+								<dd className="text-dark">+1 647 960 6634</dd>
 							</dl>
 						</div>
 						<div>
