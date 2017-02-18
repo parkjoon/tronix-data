@@ -52,7 +52,7 @@ export default class ContactForm extends Component {
 												<div className="cell-sm-6">
 													<div className="form-group offset-sm-top-30">
 														<label htmlFor="git-3-mailform-phone" className="form-label rd-input-label">Phone</label>
-														<input id="git-3-mailform-phone" type="text" name="phone" className="form-control bg-white form-control-has-validation form-control-last-child" value={this.state.phone} onChange={e => this.updateForm('phone', e.target.value)} /><span className="form-validation"></span>
+														<input id="git-3-mailform-phone" type="text" name="phone" className="form-control bg-white form-control-has-validation form-control-last-child" value={this.state.number} onChange={e => this.updateForm('number', e.target.value)} /><span className="form-validation"></span>
 													</div>
 												</div>
 												<div className="cell-sm-6">

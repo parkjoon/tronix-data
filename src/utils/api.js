@@ -6,7 +6,7 @@ export function sendMail(data) {
 		type: 'POST',
 		dataType: 'json',
 		data: {
-			to: 'joonmopark94@gmail.com',
+			to: 'info@tronixdata.com',
 			from: `${data.name} ${data.email}`,
 			subject: `${data.name} - Message from TronixData.com Contact Form`,
 			text: `${data.message} \n\n Phone number: ${data.number}`
