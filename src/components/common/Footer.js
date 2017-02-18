@@ -22,18 +22,6 @@ export default class Footer extends Component {
 					</div>
 					<address className="col-md-5">
 						<div>
-							<dl>
-								<dt className="text-white">Address:</dt>
-								<dd className="text-dark reveal-lg-block">830 Lawrence Avenue West<span className="reveal-lg-block">Toronto, Canada</span></dd>
-							</dl>
-						</div>
-						<div>
-							<dl className="offset-top-0">
-								<dt className="text-white">Phone:</dt>
-								<dd className="text-dark">+1 647 960 6634</dd>
-							</dl>
-						</div>
-						<div>
 							<dl className="offset-top-0">
 								<dt className="text-white">Email:</dt>
 								<dd className="text-dark">info@tronixdata.com</dd>
