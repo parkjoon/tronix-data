@@ -9,7 +9,7 @@ export function sendMail(data) {
 			to: 'info@tronixdata.com',
 			from: `${data.name} ${data.email}`,
 			subject: `${data.name} - Message from TronixData.com Contact Form`,
-			text: `${data.message} \n\n Phone number: ${data.number}`
+			text: `Company name: ${data.company} \n\n Message: ${data.message} \n\n Phone number: ${data.number}`
 		}
 	});
 }

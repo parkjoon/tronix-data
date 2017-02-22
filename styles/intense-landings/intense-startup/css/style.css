@@ -33140,9 +33140,3 @@ a.pswp__share--download:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1024px) {
-    .banner-parallax {
-        background-attachment: scroll;
-    }
-}

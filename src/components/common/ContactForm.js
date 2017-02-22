@@ -10,7 +10,8 @@ export default class ContactForm extends Component {
 			email: '',
 			message: '',
 			name: '',
-			number: ''
+			number: '',
+			company: ''
 		};
 	}
 
@@ -43,6 +44,12 @@ export default class ContactForm extends Component {
 									<div className="cell-xs-10 cell-md-8">
 										<form data-form-output="form-output-global" data-form-type="contact" className="rd-mailform text-left" noValidate="novalidate">
 											<div className="range range-xs-center">
+												<div className="cell-sm-12">
+													<div className="form-group">
+														<label htmlFor="git-3-mailform-company-name" className="form-label rd-input-label">Company Name</label>
+														<input id="git-3-mailform-company-name" type="text" name="companyname" className="form-control bg-white form-control-has-validation form-control-last-child" value={this.state.name} onChange={e => this.updateForm('company', e.target.value)} /><span className="form-validation"></span>
+													</div>
+												</div>
 												<div className="cell-sm-12">
 													<div className="form-group">
 														<label htmlFor="git-3-mailform-first-name" className="form-label rd-input-label">Name</label>
