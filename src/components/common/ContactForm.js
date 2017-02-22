@@ -51,7 +51,7 @@ export default class ContactForm extends Component {
 													</div>
 												</div>
 												<div className="cell-sm-12">
-													<div className="form-group">
+													<div className="form-group offset-sm-top-30">
 														<label htmlFor="git-3-mailform-first-name" className="form-label rd-input-label">Name</label>
 														<input id="git-3-mailform-first-name" type="text" name="firstname" className="form-control bg-white form-control-has-validation form-control-last-child" value={this.state.name} onChange={e => this.updateForm('name', e.target.value)} /><span className="form-validation"></span>
 													</div>
