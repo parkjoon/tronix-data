@@ -47,25 +47,25 @@ export default class ContactForm extends Component {
 												<div className="cell-sm-12">
 													<div className="form-group">
 														<label htmlFor="git-3-mailform-company-name" className="form-label rd-input-label">Company Name</label>
-														<input id="git-3-mailform-company-name" type="text" name="companyname" className="form-control bg-white form-control-has-validation form-control-last-child" value={this.state.company} onChange={e => this.updateForm('company', e.target.value)} /><span className="form-validation"></span>
+														<input id="git-3-mailform-company-name" type="text" name="companyname" className="form-control bg-white form-control-has-validation form-control-last-child" style={{paddingTop: '20px'}} value={this.state.company} onChange={e => this.updateForm('company', e.target.value)} /><span className="form-validation"></span>
 													</div>
 												</div>
 												<div className="cell-sm-12">
 													<div className="form-group offset-sm-top-30">
 														<label htmlFor="git-3-mailform-first-name" className="form-label rd-input-label">Name</label>
-														<input id="git-3-mailform-first-name" type="text" name="firstname" className="form-control bg-white form-control-has-validation form-control-last-child" value={this.state.name} onChange={e => this.updateForm('name', e.target.value)} /><span className="form-validation"></span>
+														<input id="git-3-mailform-first-name" type="text" name="firstname" className="form-control bg-white form-control-has-validation form-control-last-child" style={{paddingTop: '20px'}} value={this.state.name} onChange={e => this.updateForm('name', e.target.value)} /><span className="form-validation"></span>
 													</div>
 												</div>
 												<div className="cell-sm-6">
 													<div className="form-group offset-sm-top-30">
 														<label htmlFor="git-3-mailform-phone" className="form-label rd-input-label">Phone</label>
-														<input id="git-3-mailform-phone" type="text" name="phone" className="form-control bg-white form-control-has-validation form-control-last-child" value={this.state.number} onChange={e => this.updateForm('number', e.target.value)} /><span className="form-validation"></span>
+														<input id="git-3-mailform-phone" type="text" name="phone" className="form-control bg-white form-control-has-validation form-control-last-child" style={{paddingTop: '20px'}} value={this.state.number} onChange={e => this.updateForm('number', e.target.value)} /><span className="form-validation"></span>
 													</div>
 												</div>
 												<div className="cell-sm-6">
 													<div className="form-group offset-sm-top-30">
 														<label htmlFor="git-3-mailform-email" className="form-label rd-input-label">Email</label>
-														<input id="git-3-mailform-email" type="text" name="email" className="form-control bg-white form-control-has-validation form-control-last-child" value={this.state.email} onChange={e => this.updateForm('email', e.target.value)} /><span className="form-validation"></span>
+														<input id="git-3-mailform-email" type="text" name="email" className="form-control bg-white form-control-has-validation form-control-last-child" style={{paddingTop: '20px'}} value={this.state.email} onChange={e => this.updateForm('email', e.target.value)} /><span className="form-validation"></span>
 													</div>
 												</div>
 												<div className="cell-sm-12">
