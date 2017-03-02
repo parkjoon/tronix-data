@@ -7,7 +7,7 @@ export default class OperationsManagement extends Component {
 				<div className="shell">
 					<div className="range range-xs-center offset-top-30">
 						<div className="cell-xs-10 cell-md-6">
-							<h3>Operations Management</h3>
+							<h3>Operations Management Suite</h3>
 							<p style={{color: 'black'}}>We provide Operational intelligence solutions based primarily on the Microsoft Platform to help organizations to monitor, measure and manage their IT.</p>
 						</div>
 					</div>

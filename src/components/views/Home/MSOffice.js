@@ -7,7 +7,7 @@ export default class MSOffice extends Component {
 				<div className="shell">
 					<div className="range range-xs-center offset-top-30">
 						<div className="cell-xs-10 cell-md-8">
-							<h3>Microsoft Office 365 Consulting and Migration</h3>
+							<h3>Microsoft O365 Consulting and Migration</h3>
 							<p style={{color: 'black'}}>Tronix Data's Office 365 consulting services can help you get the best out of your investment with Office 365. We can help you build a complete picture of your IT infrastructure and on how Office 365 can increase your profitability, productivity and help achieve your business goals. We can help you migrate to Office 365 from any platform with zero to minimum downtime.</p>
 						</div>
 					</div>

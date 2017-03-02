@@ -46,7 +46,7 @@ export default class DataCenterModernization extends Component {
 										<h5>Cloud Integrated Storage</h5>
 									</div>
 									<div className="offset-top-10">
-										<p className="small">Cloud Integrated Storage (CIS) may not fit for every company. We have the tools to identify the right use cases for CIS and have successfully deployed CIS appliances to leverage Azure, Amazon, and Google cloud migrations.</p>
+										<p className="small">Cloud Integrated Storage (CIS) may not fit for every company. We have the tools to identify the right use cases for CIS and have successfully deployed CIS appliances to leverage Microsoft Azure, Amazon, and Google cloud migrations.</p>
 									</div>
 								</div>
 							</div>
