@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class DataCenterModernization extends Component {
 	render() {
 		return (
-			<section style={{paddingTop: '1em'}}>
+			<section>
 				<div className="shell">
 					<div className="range range-xs-center offset-top-30">
 						<div className="cell-xs-10 cell-md-8">
@@ -11,7 +11,7 @@ export default class DataCenterModernization extends Component {
 							<p style={{color: 'black'}}>We can help you reduce your expenditures on what is typically the most costly component of your IT budget. We do it by rationalizing, consolidating, and pruning servers, applications, and data centers to eliminate waste, redundancy, and under-utilization.</p>
 						</div>
 					</div>
-					<div className="range range-xs-center text-left offset-top-60 offset-md-top-90" style={{paddingBottom: '2em'}}>
+					<div className="range range-xs-center text-left" style={{paddingBottom: '2em'}}>
 						<div className="cell-sm-6 cell-xs-10 cell-md-4">
 							<div className="unit unit-horizontal">
 								<div className="unit-left"><i className="fa fa-cloud fa-4x"></i></div>

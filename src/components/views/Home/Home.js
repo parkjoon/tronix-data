@@ -11,6 +11,8 @@ import Footer from '../../common/Footer';
 import FooterBanner from './FooterBanner';
 import Header from '../../common/Header';
 import MiscFeatures from './MiscFeatures';
+import MSAzure from './MSAzure';
+import MSOffice from './MSOffice';
 import OperationsManagement from './OperationsManagement';
 
 export default class Home extends Component {
@@ -29,6 +31,10 @@ export default class Home extends Component {
 						<DataCenterModernization />
 						<hr className="hr" />
 						<OperationsManagement />
+						<hr className="hr" />
+						<MSOffice />
+						<hr className="hr" />
+						<MSAzure />
 						<FooterBanner />
 						{/* <Clients /> */}
 					</section>

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class OperationsManagement extends Component {
 	render() {
 		return (
-			<section style={{paddingTop: '1em', paddingBottom: '8em'}}>
+			<section>
 				<div className="shell">
 					<div className="range range-xs-center offset-top-30">
 						<div className="cell-xs-10 cell-md-6">
@@ -11,7 +11,7 @@ export default class OperationsManagement extends Component {
 							<p style={{color: 'black'}}>We provide Operational intelligence solutions based primarily on the Microsoft Platform to help organizations to monitor, measure and manage their IT.</p>
 						</div>
 					</div>
-					<div className="range range-xs-center text-left offset-top-60 offset-md-top-90">
+					<div className="range range-xs-center text-left">
 						<div className="cell-sm-6 cell-xs-10 cell-md-4">
 							<div className="unit unit-horizontal">
 								<div className="unit-left"><i className="fa fa-check fa-4x"></i></div>

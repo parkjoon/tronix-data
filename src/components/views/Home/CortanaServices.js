@@ -11,7 +11,7 @@ export default class CortanaServices extends Component {
 							<p style={{color: 'black'}}>Microsoft Cortana Intelligence Suite is a fully managed big data and advanced analytics platform. It can transform your data into intelligent action and open up your blind spots to a blur of business potential. We can help you use the Cortana Intelligence Suite for Information management, Big Data stores, Machine Learning, and then present the results using dashboards and visualizations.</p>
 						</div>
 					</div>
-					<div className="range range-xs-center text-left offset-top-60 offset-md-top-90" style={{paddingBottom: '2em'}}>
+					<div className="range range-xs-center text-left" style={{paddingBottom: '2em'}}>
 						<div className="cell-sm-6 cell-xs-10 cell-md-4">
 							<div className="unit unit-horizontal">
 								<div className="unit-left"><i className="fa fa-line-chart fa-4x"></i></div>
