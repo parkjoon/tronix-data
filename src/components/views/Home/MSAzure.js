@@ -7,7 +7,7 @@ export default class MSAzure extends Component {
 				<div className="shell">
 					<div className="range range-xs-center offset-top-30">
 						<div className="cell-xs-10 cell-md-8">
-							<h3>Microsoft Azure Consulting Services</h3>
+							<h3>Microsoft Azure Consulting</h3>
 							<p style={{color: 'black'}}>Microsoft Azure is a leading enterprise grade cloud computing platform that allows businesses to save money with Infrastructure as a Services and Platform as a Service. With our consulting services, we help companies to take advantage of Microsoft Azure services and set your infrastructure at best utilization with lower TCO as compared to on-premise deployments.</p>
 						</div>
 					</div>
