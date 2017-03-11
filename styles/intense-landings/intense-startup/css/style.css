@@ -33106,8 +33106,8 @@ a.pswp__share--download:hover {
 	background-image: url("/styles/images/tronix-data/banner-8.jpg");
 
 	/* Set a specific height */
-	/*height: 100%;*/
-	width: 568px;
+	height: 100%;
+	width: 100%;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
