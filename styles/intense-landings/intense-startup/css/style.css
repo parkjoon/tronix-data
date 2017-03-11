@@ -33104,9 +33104,10 @@ a.pswp__share--download:hover {
 .banner-parallax {
 	/* The image used */
 	background-image: url("/styles/images/tronix-data/banner-8.jpg");
+	background-size: cover;
 
 	/* Set a specific height */
-	max-height: 100%;
+	height: 100%;
 	/*width: 100%;*/
 
 	/* Create the parallax scrolling effect */
