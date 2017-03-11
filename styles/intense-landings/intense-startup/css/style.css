@@ -33119,6 +33119,7 @@ a.pswp__share--download:hover {
 @media only screen and (max-device-width: 1024px) {
     .banner-parallax {
         background-attachment: scroll;
+		background-position: 0px 0px;
     }
 }
 
@@ -33139,6 +33140,7 @@ a.pswp__share--download:hover {
 @media only screen and (max-device-width: 1024px) {
     .big-data-parallax {
         background-attachment: scroll;
+		background-position: 0px 0px;
     }
 }
 
@@ -33159,5 +33161,6 @@ a.pswp__share--download:hover {
 @media only screen and (max-device-width: 1024px) {
     .footer-banner-parallax {
         background-attachment: scroll;
+		background-position: 0px 0px;
     }
 }
