@@ -33114,6 +33114,14 @@ a.pswp__share--download:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .banner-parallax {
+        background-attachment: scroll;
+    }
+}
+
 .big-data-parallax {
 	/* The image used */
 	background-image: url("/styles/images/tronix-data/banner-6.jpg");
@@ -33127,6 +33135,13 @@ a.pswp__share--download:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+@media only screen and (max-device-width: 1024px) {
+    .big-data-parallax {
+        background-attachment: scroll;
+    }
+}
+
 .footer-banner-parallax {
 	/* The image used */
 	background-image: url("/styles/images/tronix-data/analytics-1.jpg");
@@ -33139,4 +33154,10 @@ a.pswp__share--download:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .footer-banner-parallax {
+        background-attachment: scroll;
+    }
 }
