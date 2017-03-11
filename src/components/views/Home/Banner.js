@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Banner extends Component {
 	render() {
 		return (
-			<div>
+			<div style={{maxHeight: '1000px'}}>
 				<div className="banner-parallax">
 					<div className="shell">
 						<div className="range">
