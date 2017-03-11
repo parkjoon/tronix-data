@@ -33104,8 +33104,6 @@ a.pswp__share--download:hover {
 .banner-parallax {
 	/* The image used */
 	background-image: url("/styles/images/tronix-data/banner-8.jpg");
-	background-size: 100% 100%;
-    background-repeat: no-repeat;
 
 	/* Set a specific height */
 	height: 100%;
